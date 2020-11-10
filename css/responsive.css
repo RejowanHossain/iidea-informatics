@@ -18,14 +18,19 @@
     .section-title h1 {
         font-size: 45px;
     }
+    .port h1 {
+        font-size: 38px;
+    }
+    .group-btn button {
+        padding: 19px 19px;
+        font-size: 11px;
+        margin-right: 6px;
+    }
     .team-avatar {
         text-align: -moz-center;
     }
     .abt-title h1 {
         font-size: 45px;
-    }
-    .news-box {
-        padding: 78px 31px 80px 37px;
     }
     .footer-title h3 {
         font-size: 14px;
@@ -56,6 +61,12 @@
     }
     .section-title h1 {
         font-size: 40px;
+    }
+    .group-btn {
+        margin-top: 30px;
+    }
+    .group-btn button {
+        font-size: 12px;
     }
     .footer-title h3 {
         font-size: 14px;
@@ -93,6 +104,16 @@
     .section-title h1 {
         font-size: 32px;
     }
+    .group-btn {
+        margin-top: 30px;
+    }
+    .group-btn button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .portfolio-content {
+        top: 55%;
+    }
     .service-area {
         padding: 0;
     }
@@ -112,106 +133,6 @@
     .footer-social {
         text-align: left;
         margin-top: 20px;
-    }
-    /* service page 01 starts */
-    .service-text .hero-caption h1 {
-        font-size: 42px;
-    }
-    .serv-bread-align {
-        justify-content: start;
-    }
-    .faq-content {
-        padding: 17px;
-    }
-    .faq-content .nice-select {
-        padding-left: 10px;
-    }
-    .employer-text {
-        padding: 32px;
-    }
-    .employer-text h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    .appointment {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .employer-img img {
-        width: 100%;
-    }
-    .footer-form button {
-        right: 14px;
-    }
-    /* service page 01 ends */
-    /* service 02 starts */
-    .service-area-two {
-        padding-top: 115px;
-        padding-bottom: 90px;
-    }
-    /* service 02 ends */
-    /* service details page starts */
-    .service-detail-area {
-        padding: 90px 0px;
-    }
-    .service-detail-img img {
-        width: 100%;
-    }
-    .service-detail-point {
-        display: block;
-    }
-    .margin-right-service {
-        margin-bottom: 25px;
-    }
-    .file-box {
-        padding: 15px 18px;
-    }
-    .inner-file-single .file-size {
-        display: none;
-    }
-    .service-widgets {
-        padding: 33px;
-    }
-    .service-widgets {
-        padding: 21px;
-    }
-    .widget-container {
-        padding-left: 14px;
-    }
-    /* service details page ends */
-    .single-satisfied {
-        display: block;
-    }
-    .single-satisfied .sat-right {
-        margin-left: 0;
-    }
-    .single-satisfied .ml {
-        margin-left: 0;
-    }
-    /* homepage 3 starts */
-    .none {
-        display: none;
-    }
-    .social-icons {
-        display: none;
-    }
-    .main-menu-area {
-        background: transparent;
-    }
-    .hero-2-text-box .hero-caption h1 {
-        font-size: 39px;
-    }
-    .pop {
-        display: none;
-    }
-    .hero-2-text-box {
-        padding: 36px;
-    }
-    .hero-2-text-box {
-        padding: 43px;
-    }
-    .review-box {
-        padding: 25px;
     }
 }
 
@@ -253,6 +174,16 @@
     }
     .section-title h1 {
         font-size: 32px;
+    }
+    .group-btn {
+        margin-top: 30px;
+    }
+    .group-btn button {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .portfolio-content {
+        left: 11%;
     }
     .cta-area {
         padding: 89px 54px;
