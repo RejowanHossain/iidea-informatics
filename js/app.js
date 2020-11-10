@@ -2,18 +2,6 @@ $(document).ready(function() {
     //   "use strict";
 
 
-
-
-
-    // search
-    // var $search_container = $('.search-container');
-    // // var $search_icon = $('.header-search');
-    // var $search_close = $('#close');
-    // $search_close.on('click', function() {
-    //     console.log(124);
-    // });
-
-
     // meanmenu
     $('#mobile-menu').meanmenu({
         meanMenuContainer: '.mobile-menu',
@@ -26,10 +14,7 @@ $(document).ready(function() {
         $("#loading").fadeOut(500);
     })
 
-    // nice select
-    $(document).ready(function() {
-        $('select').niceSelect();
-    });
+
 
     // scroll to top
     //Top to back
@@ -104,47 +89,7 @@ $(document).ready(function() {
         ]
     });
 
-    // testimonial slider
-    $('.testi-slide').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        // prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-        // nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 550,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
+
     // mixitup
     var mixer = mixitup('.space');
 
@@ -162,62 +107,6 @@ $(document).ready(function() {
             }
         }
     });
-
-    // brand slider
-    $('.brand-slide').slick({
-        dots: false,
-        arrows: false,
-        infinite: true,
-        speed: 300,
-        // prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-        // nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        responsive: [{
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    infinite: true,
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 550,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    });
-
-
-
-
-    /* magnificPopup video view */
-    $('.pop').magnificPopup({
-        type: 'iframe',
-
-    });
-
-    // counter up
-    // $('.counter').counterUp();
-
-
 
 
 });
