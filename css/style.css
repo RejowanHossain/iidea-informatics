@@ -1,0 +1,259 @@
+/* 
+Theme Name: IIDEA INFORMATICS
+Author: IIDEA INFORMATICS
+*/
+
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* global css */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9b9b9b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0b0c26;
+    font-weight: 600;
+}
+
+.button {
+    color: #f71735;
+    background: #fff;
+    padding: 21px 32px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s linear all;
+    position: relative;
+    z-index: 99999;
+    border-radius: 3px;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f71735;
+    transition: .3s linear all;
+    z-index: -1;
+}
+
+.button:hover::before {
+    width: 100%;
+    color: #fff;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+
+/* global css */
+
+
+/* main css starts */
+
+
+/* navbar starts */
+
+.logo h5 {
+    text-transform: uppercase;
+}
+
+.logo h5 span {
+    color: #f71735;
+    font-size: 38px;
+}
+
+.main-nav nav ul {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.main-nav nav ul li {
+    margin-right: 23px;
+    position: relative;
+}
+
+.main-nav nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: #0b0c26;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 30px 0;
+    display: block;
+}
+
+.main-nav nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f71735;
+    width: 0;
+    height: 3px;
+    transition: .3s linear all;
+}
+
+.main-nav nav ul li a:hover::before {
+    width: 100%;
+}
+
+
+/* navbar ends */
+
+
+/* hero starts */
+
+.hero-utility {
+    padding: 150px 120px;
+    min-height: 100vh;
+    position: relative;
+}
+
+.single-slider-one {
+    background: url('../img/slider1.jpeg') center center;
+    background-repeat: no-repeat;
+}
+
+.single-slider-two {
+    background: url('../img/slider02.jpeg') center center;
+    background-repeat: no-repeat;
+}
+
+.single-slider-one::before,
+.single-slider-two::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #0b0c26;
+    opacity: .5;
+}
+
+.hero-text h5 {
+    color: #fff;
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 59px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.hero-text p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header-menu-cta {
+    margin-top: 40px;
+}
+
+.slick-arrow {
+    transition: .3s linear all;
+}
+
+.slick-next svg {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    z-index: 99999;
+    color: #eee;
+    font-size: 50px;
+    opacity: 0;
+    padding: 11px;
+    transition: .3s linear all;
+}
+
+.slick-prev svg {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    z-index: 99999;
+    color: #eee;
+    font-size: 50px;
+    opacity: 0;
+    padding: 11px;
+    transition: .3s linear all;
+}
+
+.hero-area:hover .slick-next svg {
+    left: 4%;
+    opacity: 1;
+}
+
+.hero-area:hover .slick-prev svg {
+    right: 4%;
+    opacity: 1;
+}
+
+
+/* hero ends */
+
+
+/* scroll top btn */
+
+.top-btm {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    font-size: 20px;
+    bottom: 65px;
+    right: 50px;
+    z-index: 999;
+    color: #fff;
+    background: #f71735;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s linear all;
+    border-radius: 0;
+    display: none;
+}
+
+.top-btm:hover {
+    background: #0b0c26;
+}
+
+
+/* search  */

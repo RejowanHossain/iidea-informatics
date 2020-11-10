@@ -55,7 +55,6 @@ $(document).ready(function() {
         arrows: true,
         infinite: true,
         speed: 500,
-        autoplay: true,
         fade: true,
         cssEase: 'linear',
         prevArrow: '<button type="button" class="slick-prev slick-arrow"><i class="fas fa-arrow-right"></i></button>',
