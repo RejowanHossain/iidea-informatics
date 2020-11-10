@@ -6,30 +6,14 @@
 /* normal desktop */
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    .top-address span:nth-child(2) {
-        display: none;
-    }
     .main-nav nav ul li {
-        margin-right: 12px;
+        margin-right: 20px;
     }
     .hero-text h1 {
-        font-size: 58px;
+        font-size: 46px;
     }
-    .hero-caption p {
-        padding-right: 100px;
-    }
-    .single-slider-one,
-    .single-slider-two {
-        height: 640px;
-    }
-    .hero-text .two h1 {
-        padding-right: 47%;
-    }
-    .hero-text .two p {
-        padding-right: 42%;
-    }
-    .abt-img img {
-        width: 100%;
+    .abt-img {
+        display: none;
     }
     .section-title h1 {
         font-size: 45px;
@@ -46,232 +30,65 @@
     .footer-title h3 {
         font-size: 14px;
     }
-    /* service page 01 starts */
-    .section-title .white {
-        font-size: 42px;
+    .footer-form form button {
+        top: 78%;
     }
-    .faq-content {
-        padding: 34px;
-    }
-    .employer-img img {
-        width: 100%;
-    }
-    .employer-text {
-        padding-top: 20px;
-        padding-left: 30px;
-    }
-    .employer-text h1 {
-        font-size: 32px;
-        margin-bottom: 15px;
-    }
-    /* service page 01 ends */
-    /* service-page 02 starts */
-    .service-page-two-padding .service-content {
-        padding: 30px 20px 20px 15px
-    }
-    /* service page 02 ends */
-    /* service details page starts */
-    .service-detail-area {
-        padding: 120px 0;
-    }
-    .service-detail-icon svg {
-        font-size: 25px;
-        margin-right: 14px;
-    }
-    .point-list h3 {
-        font-size: 13px;
-    }
-    .margin-right-service {
-        margin-right: 10px;
-    }
-    .point-list ul li {
-        font-size: 12px;
-    }
-    .service-widgets {
-        padding: 25px;
-        padding-top: 25px;
-    }
-    .widget-title h3 {
-        font-size: 22px;
-    }
-    .widget-list ul li a {
-        display: block;
-    }
-    .widget-icon svg {
-        font-size: 25px;
-    }
-    .widget-name {
-        margin-left: 0;
-        margin-top: 10px;
-        font-size: 12px;
-    }
-    .widget-input svg {
-        font-size: 12px;
-        top: 24;
-    }
-    .widget-input input {
-        padding-left: 35px;
-    }
-    .widget-contact-form .nice-select {
-        padding-left: 32px;
-        font-size: 12px;
-    }
-    /* service detail page ends */
-    /* team 01 page starts */
-    .team-avatar img {
-        width: 100%;
-    }
-    .team-map {
-        padding: 115px 0;
-    }
-    .count-text p {
-        padding: 0;
-    }
-    /* team 01 page ends */
-    /* team details starts */
-    .detail-social ul {
-        padding: 16px 25px;
-    }
-    /* team detail ends */
-    /* homepage03 starts */
-    .header-3-cta:first-child {
-        display: none;
-    }
-    .hero-2-text-box .hero-caption h1 {
-        font-size: 55px;
-    }
-    /* hompepage 03 ends */
 }
 
 
 /* tablet */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .top-address span:nth-child(1) {
-        display: none;
+    .mean-container {
+        width: 100%;
     }
-    .header-menu-cta-top a {
-        display: none;
-    }
-    .main-menu-area {
-        padding-top: 15px;
+    .hero-utility {
+        padding: 150px 65px;
     }
     .hero-text h1,
     .two h1 {
-        font-size: 52px;
+        font-size: 41px;
         padding-right: 25%;
     }
     .hero-caption p,
     .two p {
         padding-right: 27%;
     }
-    .single-slider-one,
-    .single-slider-two {
-        height: 640px;
-    }
-    .abt-img img {
-        width: 100%;
-    }
     .section-title h1 {
         font-size: 40px;
-    }
-    .price-box {
-        padding: 70px 21px;
-    }
-    .price-top h2 {
-        font-size: 80px;
-    }
-    .price-body ul {
-        text-align: left;
-    }
-    .price-box .button {
-        padding: 20px 12px;
-        font-size: 12px;
     }
     .footer-title h3 {
         font-size: 14px;
     }
-    /* service page 01 starts */
-    .service-text .hero-caption h1 {
-        font-size: 42px;
-    }
-    .appointment {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .employer-img img {
-        width: 100%;
-    }
-    /* service page 01 ends */
-    /* service details page starts */
-    .service-detail-area {
-        padding: 110px 0px;
-    }
-    /* service details page ends */
-    /* team 01 page starts */
-    .team-avatar img {
-        width: 100%;
-    }
-    .team-map {
-        padding: 115px 0;
-    }
-    .count-text p {
-        padding: 0;
-    }
-    /* team 01 page ends */
-    /* homepage 03 starts */
-    .theme-3-bg {
-        background: transparent;
-    }
-    .theme-3-social {
-        display: none;
-    }
-    .header-3-cta {
-        display: none;
-    }
-    .hero-2-text-box .hero-caption h1 {
-        font-size: 50px;
-    }
-    /* homepage 03 ends */
 }
 
 
 /* small mobile */
 
 @media (max-width: 767px) {
-    .top-header {
-        display: none;
+    .mean-container {
+        width: 100%;
     }
-    .header-menu-cta-top a {
-        display: none;
+    .hero-utility {
+        padding: 90px 25px;
     }
-    .main-menu-area {
-        padding-top: 15px;
+    .logo h5 {
+        font-size: 17px;
+    }
+    .logo h5 span {
+        font-size: 28px;
     }
     .hero-text h1,
     .two h1 {
-        font-size: 40px;
+        font-size: 30px;
         padding-right: 2%;
+    }
+    .hero-text h5 {
+        font-size: 15px;
     }
     .single-slider-one,
     .single-slider-two {
         height: 670px;
-    }
-    .active-slider .slick-next {
-        display: none;
-    }
-    .active-slider .slick-prev {
-        display: none;
-    }
-    .abt-img img {
-        width: 100%;
-    }
-    .abt-small-counter {
-        bottom: 30px;
-        left: 47px;
-    }
-    .abt-title h1 {
-        font-size: 36px;
     }
     .section-title h1 {
         font-size: 32px;
@@ -279,58 +96,18 @@
     .service-area {
         padding: 0;
     }
-    .cta-area {
-        padding: 115px 0px;
-    }
-    .header-menu-cta-top {
-        margin-left: 0px;
-    }
-    .team-area {
-        padding: 115px 0;
-    }
     .team-avatar {
         text-align: -moz-center;
     }
     .team-avatar img {
         width: 100%;
     }
-    .newsletter-area {
-        padding: 120px 0;
-    }
-    .abt-title h1 {
-        font-size: 29px;
-    }
-    .news-box {
-        padding: 78px 28px 80px 28px;
-    }
-    .news-form form button {
-        position: static;
-        margin-top: 10px;
-    }
-    .news-form input {
-        height: 55px;
-    }
-    .pricing-area {
-        padding: 120px 0;
-    }
-    .price-box .button {
-        padding: 20px 12px;
-        font-size: 12px;
-    }
-    .price-top h2 {
-        font-size: 80px;
-    }
-    .price-top h4 {
-        margin-bottom: 24px;
-    }
-    .news-update-area {
-        padding: 120px 0;
-    }
     .footer-top {
         padding: 45px 0;
     }
     .footer-title h3 {
-        font-size: 14px;
+        color: #fff;
+        font-size: 18px;
     }
     .footer-social {
         text-align: left;
@@ -442,14 +219,22 @@
 /* large mobile */
 
 @media only screen and (min-width: 520px) and (max-width: 767px) {
-    .top-header {
-        display: none;
+    .mean-container {
+        width: 100%;
     }
-    .header-menu-cta-top a {
-        display: none;
+    .logo h5 {
+        font-size: 17px;
     }
-    .main-menu-area {
-        padding-top: 15px;
+    .logo h5 span {
+        font-size: 28px;
+    }
+    .hero-utility {
+        padding: 150px 55px;
+    }
+    .hero-text h1,
+    .two h1 {
+        font-size: 41px;
+        padding-right: 25%;
     }
     .hero-text h1,
     .two h1 {
@@ -481,80 +266,7 @@
     .abt-title h1 {
         font-size: 29px;
     }
-    .news-box {
-        padding: 40px 20px;
-    }
-    .news-form form button {
-        position: static;
-        margin-top: 10px;
-    }
-    .news-form input {
-        height: 55px;
-    }
-    .footer-social {
-        text-align: left;
-        margin-top: 20px;
-    }
-    /* service page 01 starts */
-    .serv-bread-align {
+    .end {
         justify-content: start;
-    }
-    .service-text .hero-caption h1 {
-        font-size: 42px;
-    }
-    .appointment {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .employer-img img {
-        width: 100%;
-    }
-    /* service page 01 ends */
-    /* service 02 starts */
-    .service-area-two {
-        padding-top: 115px;
-        padding-bottom: 90px;
-    }
-    /* service 02 ends */
-    /* service details page starts */
-    .service-detail-area {
-        padding: 110px 0px;
-    }
-    .service-detail-img img {
-        width: 100%;
-    }
-    .service-detail-point {
-        display: block;
-    }
-    .margin-right-service {
-        margin-bottom: 25px;
-    }
-    /* team 01 page starts */
-    .team-map {
-        padding: 115px 0;
-    }
-    .count-text p {
-        padding: 0;
-    }
-    /* team 01 page ends */
-    /* service details page ends */
-    /* homepage 3 starts */
-    .none {
-        display: none;
-    }
-    .social-icons {
-        display: none;
-    }
-    .main-menu-area {
-        background: transparent;
-    }
-    .hero-2-text-box .hero-caption h1 {
-        font-size: 50px;
-    }
-    .hero-2-text-box {
-        padding: 43px;
-    }
-    .review-box {
-        padding: 25px;
     }
 }
