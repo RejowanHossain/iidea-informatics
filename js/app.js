@@ -49,7 +49,7 @@ $(document).ready(function() {
             $(".top-btm").fadeOut();
         }
     });
-
+    // hero slider
     $('.active-slider').slick({
         dots: false,
         arrows: true,
@@ -61,11 +61,12 @@ $(document).ready(function() {
         prevArrow: '<button type="button" class="slick-prev slick-arrow"><i class="fas fa-arrow-right"></i></button>',
         nextArrow: '<button type="button" class="slick-next slick-arrow"><i class="fas fa-arrow-left"></i></button>'
     });
-
+    // team slider
     $('.team-slider').slick({
         dots: false,
         arrows: false,
         infinite: true,
+        autoplay: true,
         speed: 300,
         // prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
         // nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
