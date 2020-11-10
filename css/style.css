@@ -242,6 +242,53 @@ h6 {
 /* hero ends */
 
 
+/* about area starts */
+
+#about {
+    padding: 120px 0;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.abt-img {
+    position: relative;
+}
+
+.abt-img img {
+    width: 256px;
+}
+
+.abt-img-left {
+    position: absolute;
+    top: 0px;
+    transition: .3s linear all;
+}
+
+.abt-img-right {
+    position: absolute;
+    top: 0px;
+    right: 43px;
+    transition: .3s linear all;
+}
+
+.abt-img:hover .abt-img-left {
+    top: 30px;
+}
+
+.abt-img:hover .abt-img-right {
+    top: -30px;
+}
+
+.abt-title h5 {
+    color: #f71735;
+}
+
+
+/* about area ends */
+
+
 /* scroll top btn */
 
 .top-btm {
